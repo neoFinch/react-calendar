@@ -1,0 +1,55 @@
+.big-block {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.small-block {
+  background-color: #efefef;
+  border: 1px solid #fff;
+  text-align: center;
+  padding: 25px;
+  cursor: pointer;
+  transition: all 0.1s ease-out;
+  border-radius: 5px;
+}
+
+.small-block.active {
+  background-color: #ffc107;
+}
+
+.small-block.active:hover {
+  background-color: #ffc107;
+}
+
+.small-block:hover {
+  background-color: #4db6ac;
+  transition: all 0.3s ease;
+  transform: scale(1.1);
+  z-index: 5;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.small-block span {
+  position: relative;
+}
+
+.calendar-component {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  margin: 50px;
+  height: 500px;
+  width: 500px;
+  padding: 5px 15px;
+}
+
+select {
+  padding: 5px;
+  border: none;
+}
+
+select > option:hover {
+  background-color: red;
+}

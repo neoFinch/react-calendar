@@ -1,0 +1,33 @@
+{
+  "name": "drunken-master",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.6.1",
+    "mobx": "^5.6.0",
+    "mobx-react": "^5.4.2",
+    "react": "^16.6.3",
+    "react-app-rewire-mobx": "^1.0.9",
+    "react-dom": "^16.6.3",
+    "react-responsive-carousel": "^3.1.43",
+    "react-scripts": "2.1.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "react-app-rewired": "^1.6.2"
+  }
+}
